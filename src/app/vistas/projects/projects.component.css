@@ -1,0 +1,19 @@
+section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    color: var(--color-text-pink);
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.container{
+    gap: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

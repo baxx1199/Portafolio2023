@@ -21,8 +21,11 @@ ul> li{
     cursor: pointer;
 }
 ul> li:hover{
-    
+    transition: all .3s ease;
     background: var(--color-principal);
+}
+.toggleBtn{
+    display: none;
 }
 .logo{
     font-size: 3rem;
@@ -36,3 +39,28 @@ ul> li:hover{
 .logo:hover{
    transform: scale(1.1,1.1);
 }
+
+@media screen and (max-width: 500px) {
+    nav{
+        justify-content: space-between;
+        padding-left:  1rem;
+        padding-right:  1rem;
+    }
+    .menuBar{
+        display: none;
+    }
+    .logo{
+        position: initial;
+    }
+   .toggleBtn{
+        display: flex;
+        padding: 10px 20px;
+        align-items: center;
+        cursor: pointer;
+        transition: all .3s ease;
+   }
+   .toggleBtn:hover{
+    
+    background: var(--color-principal);
+    }
+ }

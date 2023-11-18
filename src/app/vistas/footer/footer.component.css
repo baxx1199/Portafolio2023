@@ -1,0 +1,25 @@
+footer{
+    background: var(--color-principal);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    
+}
+h2{
+    width: 100%;
+    text-align: center;
+    color: var(--color-text-pink);
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.textBlue{
+    color:var(--color-text-blue);
+    font-weight: bold;
+}
+.networks{
+    height: 200px;
+}
+p{
+    color: var(--color-text-secondary);
+}

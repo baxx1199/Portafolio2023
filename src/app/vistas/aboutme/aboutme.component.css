@@ -1,0 +1,50 @@
+section{
+    background: var(--color-principal);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+}
+h2{
+    width: 100%;
+    text-align: center;
+    color: var(--color-text-pink);
+    font-weight: 300;
+    font-size: 2rem;
+}
+section > div{
+    width: 80%;
+    margin: 2rem auto;
+}
+.titleGreat{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+}
+.textBlue{
+    color:var(--color-text-blue);
+    font-weight: bold;
+}
+.textPink{
+    color: var(--color-text-pink);
+    font-weight: bold;
+}
+.sectionLeft, .sectionRight{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.sectionLeft>div, .sectionRight>p{
+    width: 60%;
+}
+.sectionLeft>div > p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+p{
+    color: var(--color-text-secondary);
+}
+img{
+    width: 300px;
+}

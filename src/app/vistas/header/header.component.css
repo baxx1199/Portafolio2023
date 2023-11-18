@@ -1,0 +1,33 @@
+header{
+    width: 100% ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    box-sizing: border-box;
+    padding: 3rem 1rem;
+}
+
+
+.photoProfile> img{
+    border-radius: 50%;
+   
+}
+.titleHeader{
+    border: 5px var(--color-border) solid;
+    border-radius: 15px;
+    padding: 20px 30px;
+    height: max-content;
+    text-align: center;
+}
+.titleHeader > h2{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.titleHeader > h3{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 200;
+}

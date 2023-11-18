@@ -7,13 +7,21 @@
     font-family: 'JetBrains Mono', monospace;
 }
 :root{
-    --color-principal:#413D3D;
+    --color-principal:rgba(65, 61, 61, 0.796);
 
+    --color-border:#413D3D;
+    --color-border-complementary:#8C8B8B;
+    
+    
+    /* texts */
+    --color-text-pink:#F14167;
+    --color-text-blue:#0AD3FF;
     --color-text-primary:#fff;
+    --color-text-secondary:#F1F1F1;
 }
 
 body{
     background-image: url(assets/images/fondoHeaderRe.jpg);
-    background-size: cover;
-    background-repeat: repeat-y;
+    background-size: contain;
+    background-repeat: repeat;
 }

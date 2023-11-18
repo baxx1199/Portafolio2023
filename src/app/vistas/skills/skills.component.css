@@ -1,0 +1,27 @@
+section{
+    background: var(--color-principal);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+}
+hr{
+    width: 60%;
+    height: 5px;
+    background: var(--color-border-complementary);
+    margin: 2rem auto;
+    border: none;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    color: var(--color-text-pink);
+    font-weight: 300;
+    font-size: 2rem;
+}
+h3{
+    color: var(--color-text-blue);
+    font-weight: 300;
+    width: 100%;
+    text-align: center;
+    margin: 2rem auto;
+}
