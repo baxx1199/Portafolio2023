@@ -1,0 +1,38 @@
+nav, ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: var(--color-text-primary);
+}
+nav{
+    position: relative;
+    padding-top: 2rem;
+}
+ul{
+    justify-content: space-around;
+    text-decoration: none;
+
+}
+ul> li{
+    list-style: none;   
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+ul> li:hover{
+    
+    background: var(--color-principal);
+}
+.logo{
+    font-size: 3rem;
+    position: absolute;
+    left: 45%;
+    top: 25px;
+    transition: all .3s ease;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo:hover{
+   transform: scale(1.1,1.1);
+}

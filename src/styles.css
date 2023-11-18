@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'JetBrains Mono', monospace;
+}
+:root{
+    --color-principal:#413D3D;
+
+    --color-text-primary:#fff;
+}
+
+body{
+    background-image: url(assets/images/fondoHeaderRe.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
