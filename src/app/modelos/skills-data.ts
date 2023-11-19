@@ -1,0 +1,43 @@
+export const skillData=[
+    {
+        name: "Angular",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+    },
+    {
+        name: "Javascript",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    },
+    {
+        name: "Html",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+    },
+    {
+        name: "Css",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+    },
+    {
+        name: "Java",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+    },
+    {
+        name: "Sass",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+    },
+    {
+        name: "MySql",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+    },
+    {
+        name: "Typescript",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+    },
+    {
+        name: "Bootstrap",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+    },
+    {
+        name: "Jquery",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg"
+    }
+    
+]
