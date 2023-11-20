@@ -18,8 +18,29 @@ h2{
     font-weight: bold;
 }
 .networks{
-    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1rem;
+    margin: 5rem auto;
 }
 p{
     color: var(--color-text-secondary);
+}
+.socialLink{
+    width: fit-content;
+    transition: all .3s ease;
+}
+.socialLink:hover > i{
+    transform: translateY(-5px) scale(1.1,1.1);
+}
+.socialLink:active> i{
+    transform: scale(.9,.9);
+    color: var(--color-text-pink);
+}
+.socialLink>i{
+    font-size: 5rem;
+    color: var(--color-text-blue);
+    transition: all .3s ease;
 }

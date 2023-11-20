@@ -6,10 +6,17 @@
             Tecnologías
         </h3>
 
+        <div class="container">
+            <app-logtech *ngFor="let tech of skills" [tech]="tech"></app-logtech>
+        </div>
+
     </div>
     <div class="knowledges">
         <h3>
             Otros conocimientos
         </h3>
+        <div class="container">
+            <app-logtech *ngFor="let tech of otherSkill" [tech]="tech"></app-logtech>
+        </div>
     </div>
 </section>

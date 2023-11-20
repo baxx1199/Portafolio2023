@@ -1,24 +1,18 @@
-<div class="card">
-    <img src="../../../assets/images/trabajos/appPresu.png" alt="">
+<div class="card" id="idCard">
+    <img [src]="work.image" alt="{{work.name}}">
     <h3>
-        Titulo de proyecto
+        {{work.name}}
     </h3>
     <p>
-        Descripción resumida del proyecto predeterminada, con ella podemos seleccionar y mover los objetos por el Canvas.
+        {{work.resumen}}
     </p>
     <div class="tecnologiesUsed">
-        <div class="tag">
-            Html
-        </div>
-        <div class="tag">
-            css
-        </div>
-        <div class="tag">
-            javascript
+        <div *ngFor="let tech of work.techs" class="tag">
+            {{ tech }}
         </div>
     </div>
     <div class="btnsArea">
-        <button class="btnProject">Ver proyecto</button>
-        <button class="btnCode">Repositorio</button>
+        <button class="btnProject" (click)="redirectWithDelay(work.urlDeploy)" >Ver proyecto</button>
+        <button class="btnCode" (click)="redirectWithDelay(work.urlRepository)" >Ver proyecto</button>
     </div>
 </div>

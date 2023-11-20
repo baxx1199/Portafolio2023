@@ -10,6 +10,7 @@ import { HeaderComponent } from './vistas/header/header.component';
 import { SkillsComponent } from './vistas/skills/skills.component';
 import { ProjectsComponent } from './vistas/projects/projects.component';
 import { ProjectCardComponent } from './componentes/project-card/project-card.component';
+import { LogtechComponent } from './componentes/logtech/logtech.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProjectCardComponent } from './componentes/project-card/project-card.co
     HeaderComponent,
     SkillsComponent,
     ProjectsComponent,
-    ProjectCardComponent
+    ProjectCardComponent,
+    LogtechComponent
   ],
   imports: [
     BrowserModule,

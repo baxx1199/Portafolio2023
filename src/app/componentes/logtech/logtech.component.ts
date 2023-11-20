@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-logtech',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./logtech.component.css']
 })
 export class LogtechComponent implements OnInit {
+  
+  @Input() tech :any;
 
   constructor() { }
 

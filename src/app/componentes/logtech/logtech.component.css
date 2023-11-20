@@ -1,0 +1,16 @@
+.techlogo{
+    width: fit-content;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.techlogo > img{
+    width: 120px;
+    height: 120px;
+}
+.techLabel{
+
+    color: var(--color-text-primary);
+    letter-spacing: 2px;
+    width: 100%;
+    text-align: center;
+}

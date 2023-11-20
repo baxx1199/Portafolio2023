@@ -8,6 +8,8 @@ nav, ul{
 nav{
     position: relative;
     padding-top: 2rem;
+    box-sizing: border-box;
+    padding-bottom: 2rem;
 }
 ul{
     justify-content: space-around;
