@@ -1,10 +1,11 @@
 <nav>
     <div class="logo" id="idLiBaxx">Baxx</div>
     
-    <div class="toggleBtn">Toggler</div>
-    <ul class="menuBar">
+    <div class="toggleBtn" id="idBtnHamburger" (click)="togglerMenu()"><i class="fa-solid fa-bars"></i></div>
+    <ul  class="menuBar" [class.hideMenu]="!hideMenu" >
         <li class="menuItem" id="idLiAbout">Acerca de</li>
         <li class="menuItem" id="idLiSkills">Skills</li>
+        <li class="menuItem menuHide"></li>
         <li class="menuItem" id="idLiProjects">Proyectos</li>
         <li class="menuItem" id="idLiContacts">Contacto</li>
     </ul>

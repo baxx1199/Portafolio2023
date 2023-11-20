@@ -12,7 +12,7 @@ h2{
 }
 .container{
     width: 80%;
-    margin: auto;
+    margin: 30px auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -22,25 +22,24 @@ h2{
     width: -moz-fit-content;
     width: 70%;
     padding: 5px 20px;
-    margin: auto;
+    margin: 5px auto;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     padding: 1rem 0px;
+    height: 87px;
 }
 
 .containerTechOptions{
     width: fit-content;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 7px;
-    justify-content: center;
+    display: none;
+    transition: all .3s ease;
 }
 
 .filterArea > h3{
     margin-bottom: 20px;
     color: var(--color-text-primary);
+    cursor: pointer;
 }
 .iconFilter{
     width: fit-content;
@@ -62,4 +61,29 @@ h2{
 
 .iconCheck{
     background: var(--color-text-pink);
+}
+
+.seeFilter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 7px;
+    justify-content: center;
+    animation: fadeInDown;
+    animation-duration: .5s;
+}
+.btnClear{
+    border: none;
+    border-radius: 15px;
+    padding: 0.5px 1rem;
+    background: var(--color-text-blue);
+    color: var(--color-text-primary);
+    font-weight: bold;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.btnClear:active{
+    transform: scale(.9,.9);
 }

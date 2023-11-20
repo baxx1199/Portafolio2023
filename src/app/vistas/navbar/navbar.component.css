@@ -26,6 +26,16 @@ ul> li:hover{
     transition: all .3s ease;
     background: var(--color-principal);
 }
+.menuHide{
+    cursor: none;
+}
+.menuHide{
+    cursor: none;
+    width: 20%;
+}
+.menuHide:hover{
+    background:none;
+}
 .toggleBtn{
     display: none;
 }
@@ -41,18 +51,37 @@ ul> li:hover{
 .logo:hover{
    transform: scale(1.1,1.1);
 }
-
-@media screen and (max-width: 500px) {
+.hideMenu{
+    display: none;
+}
+@media screen and (max-width: 600px) {
     nav{
         justify-content: space-between;
-        padding-left:  1rem;
-        padding-right:  1rem;
+
+        width: 100%;
     }
     .menuBar{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+        background: var(--color-principal);
+        justify-content: flex-start;
+        padding-top: 1rem;
+    }
+    .menuItem{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menuHide{
         display: none;
     }
     .logo{
         position: initial;
+        font-size: 3rem;
+        margin-left: 1rem;
     }
    .toggleBtn{
         display: flex;
@@ -60,9 +89,24 @@ ul> li:hover{
         align-items: center;
         cursor: pointer;
         transition: all .3s ease;
+        margin-right: 1rem;
    }
    .toggleBtn:hover{
     
     background: var(--color-principal);
     }
+ }
+ @media screen and (max-width: 900px) {
+    ul{
+        justify-content: space-between;
+    
+    }
+    
+    ul> li{ 
+        padding: 10px 15px;   
+    }
+    .logo{
+        font-size: 2rem;
+    }
+   
  }

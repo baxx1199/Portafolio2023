@@ -8,6 +8,7 @@ import { SeccionService } from 'src/app/services/seccions.service';
 })
 export class NavbarComponent implements OnInit {
   
+  hideMenu=true
   constructor(private sections: SeccionService) { }
 
   ngOnInit(): void {
@@ -39,6 +40,10 @@ export class NavbarComponent implements OnInit {
         this.sections.contact?.scrollIntoView({ behavior: "smooth", block: "start" });
       });
 
+  }
+
+  togglerMenu(){
+      this.hideMenu = !this.hideMenu;
   }
 
  

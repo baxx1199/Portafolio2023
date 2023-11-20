@@ -2,9 +2,9 @@
     <h2>Proyectos</h2>
 
     <div class="filterArea">
-        <h3>Filtrar:</h3>
-        <div class="containerTechOptions">
-
+        <h3 (click)="toggleFilter()"><i class="fa-solid fa-filter"></i> Filtrar</h3>
+        <div class="containerTechOptions" [class.seeFilter]="watchFilter">
+            <button (click)="cleanFilter()" class="btnClear">Limpiar</button>
             <div class="iconFilter" *ngFor="let tech of technologies" (click)="toggleTechSelection(tech)" [class.iconCheck]="selectedTechs.has(tech.name)">
                 <img [src]="tech.logo" alt="{{tech.name}}" [title]="tech.name" >
             </div>

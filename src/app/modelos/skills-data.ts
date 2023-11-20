@@ -63,7 +63,7 @@ export const techForFilter=[
     },
     {
         name: "XML",
-        logo: "https://github.com/baxx1199/Portafolio2023/blob/main/src/assets/images/techs/code-solid.svg"
+        logo: "../../../assets/images/techs/code-solid.svg"
     },
     {
         name: "Firebase",

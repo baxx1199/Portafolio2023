@@ -13,6 +13,7 @@ export class ProjectsComponent implements OnInit {
   projects = projectsData;
   projectsFilter =projectsData;
   selectedTechs: Set<string> = new Set();
+  watchFilter = false
 
   constructor() { }
 
@@ -37,6 +38,15 @@ export class ProjectsComponent implements OnInit {
     }
 
     this.filterByTech();
-    console.log(this.projectsFilter)
+  }
+
+  toggleFilter(){
+    this.watchFilter = !this.watchFilter
+    console.log(this.watchFilter)
+  }
+
+  cleanFilter(){
+    this.selectedTechs.clear()
+    this.projectsFilter = this.projects;
   }
 }
