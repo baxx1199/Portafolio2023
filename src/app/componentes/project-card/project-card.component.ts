@@ -8,14 +8,19 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ProjectCardComponent implements OnInit {
   card: HTMLElement | null = null;
   @Input() work: any;
+  @Input() id!: string;
 
   constructor() {}
 
   ngOnInit(): void {
-    this.card = document.getElementById('idCard');
+    
+  }
+  ngAfterViewInit() {
+    this.card = document.getElementById(this.id);
   }
 
   redirectWithDelay(urlStr: string) {
+    console.log(this.card)
     if (this.card) {
       this.card.classList.add('animate__animated', 'animate__tada');
     }

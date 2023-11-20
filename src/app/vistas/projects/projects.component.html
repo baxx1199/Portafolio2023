@@ -1,9 +1,19 @@
 <section>
     <h2>Proyectos</h2>
 
+    <div class="filterArea">
+        <h3>Filtrar:</h3>
+        <div class="containerTechOptions">
+
+            <div class="iconFilter" *ngFor="let tech of technologies" (click)="toggleTechSelection(tech)" [class.iconCheck]="selectedTechs.has(tech.name)">
+                <img [src]="tech.logo" alt="{{tech.name}}" [title]="tech.name" >
+            </div>
+        </div>
+    </div>
+
     <div class="container" >
 
-        <app-project-card *ngFor="let work of projects" [work]="work"  ></app-project-card>
+        <app-project-card *ngFor="let work of projectsFilter, let i = index" [work]="work" [id]="'idCard'+i" ></app-project-card>
         
     </div>
 </section>

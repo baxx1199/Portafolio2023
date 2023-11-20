@@ -55,3 +55,27 @@ export const knowledge=[
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
     }
 ]
+
+export const techForFilter=[
+    {
+        name: "Kotlin",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg"
+    },
+    {
+        name: "XML",
+        logo: "https://github.com/baxx1199/Portafolio2023/blob/main/src/assets/images/techs/code-solid.svg"
+    },
+    {
+        name: "Firebase",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+    }
+   /*  {
+        name: "C#",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
+    },
+    {
+        name: ".net",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
+    } */
+    
+]
