@@ -70,3 +70,52 @@ button:active{
 .btnCode{
     background: var(--color-text-pink);
 }
+
+@media screen and (max-width: 870px) {
+    .card{
+        width: 280px;
+        margin: auto;
+    }
+    img{
+        height: 220px;
+    }
+   
+    
+    p{
+        width: 100%;
+        padding: 2px 5px;
+        box-sizing: border-box;
+        text-align: justify;
+        min-height: 110px;
+    }
+    .tecnologiesUsed, .btnsArea{
+        gap: 5px;
+    }
+    .tecnologiesUsed{
+        min-height: 80px;
+    }
+    .tecnologiesUsed > .tag{
+       padding: 2px 7px;
+    }
+ }
+ @media screen and (max-width: 620px) {
+    .card{
+        width: 80%;
+        margin: auto;
+        min-height: 400px;
+    }
+    
+    p{
+        padding: 0px 10px;
+        margin-top: 0.5rem;
+        text-align: center;
+        min-height: 100px;
+    }
+    .tecnologiesUsed, .btnsArea{
+        margin-top: 0.2rem;
+        gap: 10px;
+    }
+    .tecnologiesUsed{
+        min-height: 60px;
+    }
+ }

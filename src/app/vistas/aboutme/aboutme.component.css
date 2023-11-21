@@ -48,3 +48,49 @@ p{
 img{
     width: 300px;
 }
+
+
+@media screen and (max-width: 1000px) {
+    section > div{
+        width: 90%;
+    }
+    .sectionLeft, .sectionRight{
+        width: 100%;
+    }
+    .sectionLeft>div, .sectionRight>p{
+        width: 60%;
+    }
+    .sectionLeft>div > p{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .sectionRight{
+        margin-top: 20px;
+    }
+    .sectionRight>p{
+        width: 60%;
+    }
+    img{
+        width: 200px;
+    }
+ }
+
+@media screen and (max-width: 600px) {
+    section > div{
+        width: 100%;
+    }
+    .sectionLeft>div, .sectionRight>p{
+        width: 80%;
+        text-align: justify;
+    }
+    .sectionRight{
+        flex-direction: column-reverse;
+    }
+    p{
+        width: 100%;
+    }
+    img{
+        margin-top: 1rem;
+        width: 200px;
+    }
+ }

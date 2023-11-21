@@ -20,7 +20,6 @@ export class ProjectCardComponent implements OnInit {
   }
 
   redirectWithDelay(urlStr: string) {
-    console.log(this.card)
     if (this.card) {
       this.card.classList.add('animate__animated', 'animate__tada');
     }

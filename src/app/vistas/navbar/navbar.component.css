@@ -16,26 +16,21 @@ ul{
     text-decoration: none;
 
 }
-ul> li{
+ul> li.menuItem{
     list-style: none;   
     padding: 10px 20px;
     text-align: center;
     cursor: pointer;
 }
-ul> li:hover{
+ul> li.menuItem:hover{
     transition: all .3s ease;
     background: var(--color-principal);
 }
 .menuHide{
-    cursor: none;
-}
-.menuHide{
-    cursor: none;
     width: 20%;
+    list-style: none;  
 }
-.menuHide:hover{
-    background:none;
-}
+
 .toggleBtn{
     display: none;
 }
@@ -51,14 +46,14 @@ ul> li:hover{
 .logo:hover{
    transform: scale(1.1,1.1);
 }
-.hideMenu{
-    display: none;
-}
+
 @media screen and (max-width: 600px) {
     nav{
         justify-content: space-between;
-
         width: 100%;
+    }
+    .navOpen{
+        background: var(--color-principal);
     }
     .menuBar{
         display: flex;
@@ -69,15 +64,16 @@ ul> li:hover{
         justify-content: flex-start;
         padding-top: 1rem;
     }
+    .hideMenu{
+        display: none;
+    }
     .menuItem{
         height: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .menuHide{
-        display: none;
-    }
+
     .logo{
         position: initial;
         font-size: 3rem;

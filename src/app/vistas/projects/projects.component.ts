@@ -42,7 +42,6 @@ export class ProjectsComponent implements OnInit {
 
   toggleFilter(){
     this.watchFilter = !this.watchFilter
-    console.log(this.watchFilter)
   }
 
   cleanFilter(){

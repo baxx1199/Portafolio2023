@@ -37,3 +37,23 @@ h3{
     gap: 3rem;
     justify-content: space-evenly;
 }
+
+@media screen and (max-width: 900px) {
+    hr{
+        width: 80%;
+        margin: 1rem auto;
+    }
+    .container{
+        width: 90%;
+        margin: auto;
+        gap: 1.8rem;
+    }
+ }
+
+@media screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+        gap: 1rem;
+    }
+   
+ }
