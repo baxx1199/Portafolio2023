@@ -1,7 +1,7 @@
 export const projectsData= [
     {
         name:"PresupuestoApp",
-        image: "../../../assets/images/trabajos/appPresu.png",
+        image: "assets/images/trabajos/appPresu.png",
         techs: ["Angular","Typescript", "Html", "Css"],
         resumen: "Aplicación web que permite llevar un registro de gastos, con persistencia de datos a traves del localStorage",
         resumenEn: "The app allows you to record income and expenses for the user and show expense balance. Use LocalStorage.",
@@ -10,7 +10,7 @@ export const projectsData= [
     },
     {
         name:"Baker Website",
-        image: "../../../assets/images/trabajos/bakerWebSite.png",
+        image: "assets/images/trabajos/bakerWebSite.png",
         techs: ["Html","Bootstrap"],
         resumen: "Este es el sitio web de la pastelería artesanal Baxx, un emprendimiento personal. En este proyecto, estoy implementando un layout con Bootstrap.",
         resumenEn: "This is the website of the artisan pastry Baxx pastry shop a personal venture, in this project I am implementing the bootstrap grid layout.",
@@ -19,7 +19,7 @@ export const projectsData= [
     },
     {
         name:"ArteVivoCafe web",
-        image: "../../../assets/images/trabajos/CoffeApp.jpg",
+        image: "assets/images/trabajos/CoffeApp.jpg",
         techs: ["Html","css", "Jquery", "Javascript"],
         resumen: "Diseño para un sitio web informativo de establecimientos gastronómicos, que incluye secciones de menú con precios, información de contacto, ubicación con acceso a Google Maps y direcciones, así como una breve descripción de la organización.",
         resumenEn: "Design for an informative website of gastronomic establishments, comprising menu sections with prices, contact information, location with access to Google Maps and directions, as well as a brief description of the organization.",
@@ -28,7 +28,7 @@ export const projectsData= [
     },
     {
         name:"Pokedex",
-        image: "../../../assets/images/trabajos/pokedex.png",
+        image: "assets/images/trabajos/pokedex.png",
         techs: ["Html","css", "Javascript"],
         resumen: "Una Pokédex de Kanto que te permite buscar información sobre los 151 Pokémon de esa región. Utiliza la pokeApi.",
         resumenEn: "A kanto pokedex that allows you to search for information on the 151 Pokemon of that region. Use pokeApi",
@@ -37,7 +37,7 @@ export const projectsData= [
     },
     {
         name:"Country App",
-        image: "../../../assets/images/trabajos/CountryApp.jpg",
+        image: "assets/images/trabajos/CountryApp.jpg",
         techs: ["Angular","Typescript", "Html", "Sass"],
         resumen: "La aplicación permite ver información general de los países. Uso de api y localStorage.",
         resumenEn: "The application allows you to see general information of the countries.",
@@ -46,7 +46,7 @@ export const projectsData= [
     },
     {
         name:"Rock - Paper - Scissor game",
-        image: "../../../assets/images/trabajos/RPSgame.jpg",
+        image: "assets/images/trabajos/RPSgame.jpg",
         techs: ["Angular","Typescript", "Html", "Sass"],
         resumen: "El juego clásico de piedra, papel o tijeras. Puedes jugar contra la computadora.",
         resumenEn: "The classic game rock, paper or scissors. You can play against the computer.",
@@ -55,7 +55,7 @@ export const projectsData= [
     },
     {
         name:"Deberes App - ToDo List",
-        image: "../../../assets/images/trabajos/ToDoList.png",
+        image: "assets/images/trabajos/ToDoList.png",
         techs: ["Html","Css", "Javascript"],
         resumen: "Esta aplicación nos permite listar las tareas pendientes y guardarlas en el localStorage.",
         resumenEn: "This app allows us to list the remaining task and save them in the localStorage.",
@@ -64,7 +64,7 @@ export const projectsData= [
     },
     {
         name:"Sena Risk Report",
-        image: "../../../assets/images/trabajos/riskReport.jpg",
+        image: "assets/images/trabajos/riskReport.jpg",
         techs: ["Kotlin","XML", "Firebase"],
         resumen: "Aplicación Movil diseñada para realizar reportes de factores de riesgo en las instalaciones de la institución. ",
         resumenEn: "Mobile application designed to generate reports on risk factors within the institution's facilities.",
