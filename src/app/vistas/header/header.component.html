@@ -1,14 +1,26 @@
 <header id="idHeader">
     <div class="container-btn-language">
-        <div class="btn-language btnEs"  [class.languageActive]="currentLanguage=='es'" (click)="changeLanguage('es')"></div>
-        <div class="btn-language btnEn" [class.languageActive]="currentLanguage=='en'" (click)="changeLanguage('en')"></div>
+        <div class="btn-language btnEs" [class.languageActive]="currentLanguage=='es'" (click)="changeLanguage('es')">
+        </div>
+        <div class="btn-language btnEn" [class.languageActive]="currentLanguage=='en'" (click)="changeLanguage('en')">
+        </div>
     </div>
     <div class="photoProfile">
         <img src="assets/images/perfilphoto_nbg.png" alt="imagen de perfil de joshua cobos">
     </div>
-    <div class="titleHeader">
-        <h2>Julian Cobos Bautista</h2>
-        <h3 i18n="headerLabel" *ngIf="currentLanguage=='es'">Desarrollador web</h3>
-        <h3 *ngIf="currentLanguage=='en'">Web Developer</h3>
+    <div class="rightSection">
+
+
+        <div class="titleHeader">
+            <h2>Julian Cobos Bautista</h2>
+            <h3 i18n="headerLabel" *ngIf="currentLanguage=='es'">Desarrollador web</h3>
+            <h3 *ngIf="currentLanguage=='en'">Web Developer</h3>
+        </div>
+       <p>   > {{currentLanguage=='es'? 'Contacta conmigo': 'Contact me'}} </p>
+         
+        <div class="btncontactAction">
+            <a href="https://www.linkedin.com/in/juliancobos-baxx/" title="profile linkedin julian cobos" target="_blank" class="btncontact btnlinkedIn">LinkedIn <i class="devicon-linkedin-plain"></i></a>
+            <a href="https://github.com/baxx1199" title="baxx1199 link" target="_blank" class="btncontact btnGithub">Github <i class="devicon-github-original"></i></a>
+        </div>
     </div>
 </header>

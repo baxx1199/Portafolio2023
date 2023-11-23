@@ -37,7 +37,7 @@ header{
 .container-btn-language{
     position: absolute;
     top: 120px;
-    right: 30px;
+    right: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -63,4 +63,88 @@ header{
 }
 .languageActive{
     transform: scale(1.3,1.3);
+}
+.rightSection>p {
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    max-width: 550px;
+    color: var(--color-text-primary);
+}
+.btncontactAction{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.btncontact{
+    width: 200px;
+    text-align: center;
+    padding: 0.7rem 3rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: var(--color-text-primary);
+    text-decoration: none;
+    transition: all .3s ease;
+    animation: pulse;
+   animation-duration: 1s;
+}
+.btncontact:hover{
+   animation: tada;
+   animation-duration: 1s;
+}
+.btncontact:active{
+    transform: scale(1.1,1.1);
+}
+.btnGithub{
+    background: var(--color-text-pink);
+    margin-left: 10px;
+}
+.btnlinkedIn{
+    background: var(--color-text-blue);
+}
+@media screen and ( max-width:620px) {
+    .titleHeader > h2{
+        color: #fff;
+        font-size: 2rem;
+    }
+    .titleHeader > h3{
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 200;
+    }
+}
+@media screen and ( max-width:500px) {
+    .photoProfile> img{
+        width: 270px;
+    }
+    .titleHeader{
+        margin-top: -3rem;
+    }
+    .titleHeader > h2{
+        color: #fff;
+        font-size: 1.7rem;
+    }
+    
+}
+@media screen and ( max-width:400px) {
+   
+    
+    .titleHeader > h2{
+        color: #fff;
+        font-size: 1.3rem;
+    }
+    .titleHeader > h3{
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 200;
+    }
+    .btncontact{
+        width: 45%;
+        text-align: center;
+        padding: 0.7rem 5px;
+
+    }
+    
 }
