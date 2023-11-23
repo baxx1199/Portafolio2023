@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { SeccionService } from 'src/app/services/seccions.service';
 
 @Component({
@@ -7,7 +7,7 @@ import { SeccionService } from 'src/app/services/seccions.service';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-  
+  @Input() currentLanguage:any;
   hideMenu=true
   constructor(private sections: SeccionService) { }
 
@@ -20,6 +20,7 @@ export class NavbarComponent implements OnInit {
       const scrollToSectionContact = document.getElementById("idLiContacts");
 
       scrollToSectionBaxx?.addEventListener("click", () => {
+       
         this.sections.header?.scrollIntoView({ behavior: "smooth", block: "start" });
       });
       
@@ -33,12 +34,14 @@ export class NavbarComponent implements OnInit {
       
       
       scrollToSectionProjects?.addEventListener("click", () => {
+      
         this.sections.projects?.scrollIntoView({ behavior: "smooth", block: "start" });
       });
       
       scrollToSectionContact?.addEventListener("click", () => {
         this.sections.contact?.scrollIntoView({ behavior: "smooth", block: "start" });
       });
+     
 
   }
 

@@ -2,8 +2,11 @@
     <hr>
     <h2>Skills</h2>
     <div class="tecnologies">
-        <h3>
+        <h3 i18n="techs" *ngIf="currentLanguage=='es'">
             Tecnologías
+        </h3>
+        <h3 *ngIf="currentLanguage=='en'">
+            Technologies
         </h3>
 
         <div class="container">
@@ -12,8 +15,11 @@
 
     </div>
     <div class="knowledges">
-        <h3>
+        <h3 i18n="knowledge" *ngIf="currentLanguage=='es'">
             Otros conocimientos
+        </h3>
+        <h3  *ngIf="currentLanguage=='en'">
+            Other knowledge
         </h3>
         <div class="container">
             <app-logtech *ngFor="let tech of otherSkill" [tech]="tech"></app-logtech>

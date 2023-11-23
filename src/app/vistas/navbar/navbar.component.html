@@ -1,12 +1,12 @@
 <nav [class.navOpen]="!hideMenu">
-    <div class="logo" id="idLiBaxx">Baxx</div>
+    <img src="../../../assets/images/baxxLogo.png" alt="" class="logo" id="idLiBaxx">
     
     <div class="toggleBtn" id="idBtnHamburger" (click)="togglerMenu()"><i class="fa-solid fa-bars"></i></div>
-    <ul  class="menuBar" [class.hideMenu]="hideMenu" >
-        <li class="menuItem" id="idLiAbout">Acerca de</li>
+    <ul  class="menuBar" [class.hideMenu]="hideMenu"  >
+        <li class="menuItem" id="idLiAbout" i18n="aboutMe"> {{currentLanguage=='es' ? 'Acerca de': "About Me" }} </li>
         <li class="menuItem" id="idLiSkills">Skills</li>
         <li class="menuHide"></li>
-        <li class="menuItem" id="idLiProjects">Proyectos</li>
-        <li class="menuItem" id="idLiContacts">Contacto</li>
+        <li class="menuItem" id="idLiProjects" i18n="projects">{{currentLanguage=='es' ? 'Proyectos': "Projects" }}</li>
+        <li class="menuItem" id="idLiContacts" i18n="contact">{{currentLanguage=='es' ? 'Contacto': "Contact" }}</li>
     </ul>
 </nav>

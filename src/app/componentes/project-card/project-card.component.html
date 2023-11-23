@@ -3,8 +3,11 @@
     <h3>
         {{work.name}}
     </h3>
-    <p>
+    <p *ngIf="currentLanguage=='es'">
         {{work.resumen}}
+    </p>
+    <p *ngIf="currentLanguage=='en'">
+        {{work.resumenEn}}
     </p>
     <div class="tecnologiesUsed">
         <div *ngFor="let tech of work.techs" class="tag">
@@ -12,7 +15,9 @@
         </div>
     </div>
     <div class="btnsArea">
-        <button class="btnProject" (click)="redirectWithDelay(work.urlDeploy)" >Ver proyecto</button>
-        <button class="btnCode" (click)="redirectWithDelay(work.urlRepository)" >Ver proyecto</button>
+        <button *ngIf="currentLanguage=='es'" class="btnProject" (click)="redirectWithDelay(work.urlDeploy)" i18n="btnSeeProject">Ver proyecto</button>
+        <button *ngIf="currentLanguage=='es'" class="btnCode" (click)="redirectWithDelay(work.urlRepository)" i18n="btnSeeCode">Ver repositorio</button>
+        <button *ngIf="currentLanguage=='en'" class="btnProject" (click)="redirectWithDelay(work.urlDeploy)" >Go to app</button>
+        <button *ngIf="currentLanguage=='en'" class="btnCode" (click)="redirectWithDelay(work.urlRepository)">See repository</button>
     </div>
 </div>

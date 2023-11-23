@@ -44,3 +44,9 @@ p{
     color: var(--color-text-blue);
     transition: all .3s ease;
 }
+@media screen and (max-width:600px) {
+   p:first-of-type {
+        width: 90% ;
+        margin: auto;
+      }
+}

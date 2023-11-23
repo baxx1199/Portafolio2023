@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { projectsData } from'../../modelos/projects-data'
 import { skillData, techForFilter } from 'src/app/modelos/skills-data';
 
@@ -8,7 +8,7 @@ import { skillData, techForFilter } from 'src/app/modelos/skills-data';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-
+  @Input() currentLanguage:any;
   technologies = [...skillData, ...techForFilter];
   projects = projectsData;
   projectsFilter =projectsData;

@@ -1,10 +1,12 @@
 <section>
-    <h2>Proyectos</h2>
-
+    <h2 i18n="projects" *ngIf="currentLanguage=='es'">Proyectos</h2>
+    <h2 *ngIf="currentLanguage=='en'">Projects</h2>
     <div class="filterArea">
-        <h3 (click)="toggleFilter()"><i class="fa-solid fa-filter"></i> Filtrar</h3>
+        <h3 (click)="toggleFilter()" *ngIf="currentLanguage=='es'" i18n="filter"><i class="fa-solid fa-filter"></i> Filtrar</h3>
+        <h3 (click)="toggleFilter()" *ngIf="currentLanguage=='en'" ><i class="fa-solid fa-filter"></i> Filter</h3>
         <div class="containerTechOptions" [class.seeFilter]="watchFilter">
-            <button (click)="cleanFilter()" class="btnClear">Limpiar</button>
+            <button (click)="cleanFilter()" *ngIf="currentLanguage=='es'" class="btnClear" i18n="btnClear">Limpiar</button>
+            <button (click)="cleanFilter()" *ngIf="currentLanguage=='en'" class="btnClear" >Reset</button>
             <div class="iconFilter" *ngFor="let tech of technologies" (click)="toggleTechSelection(tech)" [class.iconCheck]="selectedTechs.has(tech.name)">
                 <img [src]="tech.logo" alt="{{tech.name}}" [title]="tech.name" >
             </div>
@@ -13,7 +15,7 @@
 
     <div class="container" >
 
-        <app-project-card *ngFor="let work of projectsFilter, let i = index" [work]="work" [id]="'idCard'+i" ></app-project-card>
+        <app-project-card *ngFor="let work of projectsFilter, let i = index" [work]="work" [id]="'idCard'+i" [currentLanguage]="currentLanguage"></app-project-card>
         
     </div>
 </section>

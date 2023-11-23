@@ -1,7 +1,9 @@
 <footer>
-    <h2>Contacto</h2>
+    <h2 i18n="contactTitle" *ngIf="currentLanguage=='es'">Contacto</h2>
+    <h2 *ngIf="currentLanguage=='en'">Contact</h2>
 
-    <p>Si me ajusto a tus necesidades puedes contactarme a través de mis redes sociales.</p>
+    <p i18n="pContact1" *ngIf="currentLanguage=='es'">Si me ajusto a tus necesidades puedes contactarme a través de mis redes sociales.</p>
+    <p *ngIf="currentLanguage=='en'">If my profile meets your needs, feel free to contact me through my social media.</p>
 
     <div class="networks">
         <a href="https://www.facebook.com/Baxx.11.99/" title="facebook_Profile" class="socialLink fb" target="_blank">
@@ -22,6 +24,8 @@
 
 
     </div>
-    <p>Creado por <span class="textBlue">Baxx</span> </p>
+    <p i18n="pContact2" *ngIf="currentLanguage=='es'">Creado por <span class="textBlue">Baxx</span> </p>
+    <p *ngIf="currentLanguage=='en'">Created by <span class="textBlue">Baxx</span> </p>
+    
     <p>2023</p>
 </footer>

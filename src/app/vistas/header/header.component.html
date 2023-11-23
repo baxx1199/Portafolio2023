@@ -1,9 +1,14 @@
 <header id="idHeader">
+    <div class="container-btn-language">
+        <div class="btn-language btnEs"  [class.languageActive]="currentLanguage=='es'" (click)="changeLanguage('es')"></div>
+        <div class="btn-language btnEn" [class.languageActive]="currentLanguage=='en'" (click)="changeLanguage('en')"></div>
+    </div>
     <div class="photoProfile">
         <img src="../../../assets/images/perfilphoto_nbg.png" alt="imagen de perfil de joshua cobos">
     </div>
     <div class="titleHeader">
         <h2>Julian Cobos Bautista</h2>
-        <h3>Desarrollador web</h3>
+        <h3 i18n="headerLabel" *ngIf="currentLanguage=='es'">Desarrollador web</h3>
+        <h3 *ngIf="currentLanguage=='en'">Web Developer</h3>
     </div>
 </header>

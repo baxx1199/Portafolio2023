@@ -9,6 +9,7 @@ export class ProjectCardComponent implements OnInit {
   card: HTMLElement | null = null;
   @Input() work: any;
   @Input() id!: string;
+  @Input() currentLanguage!: string;
 
   constructor() {}
 

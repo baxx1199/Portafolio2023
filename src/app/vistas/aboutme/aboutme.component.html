@@ -1,15 +1,15 @@
-<section>
-    <h2>About me</h2>
+<section *ngIf="currentLanguage=='es'">
+    <h2 i18n="aboutMeTitle">¿Quien soy?</h2>
     <div>
         <div class="sectionLeft">
             <div>
-                <h2 class="titleGreat textBlue">¡ Hola !</h2>
-                <p>Mi nombre es <span class="textBlue">Julian Cobos Bautista</span> pero puedes decirme <span
+                <h2 class="titleGreat textBlue" i18n="great">¡ Hola !</h2>
+                <p i18n="aboutMeP1">Mi nombre es <span class="textBlue">Julian Cobos Bautista</span> pero puedes decirme <span
                         class="textBlue">Baxx</span>.
                     Soy desarrollador web Front - End y estudiante de ingeniería de Sistemas y computación, cuento con
                     conocimientos principalmente de <span class="textPink">HTML, CSS, JavaScript</span>.
                 </p>
-                <p>
+                <p i18n="aboutMeP2">
                     Resido en Funza - Colombia, Me gusta poder estar en constante aprendizaje y afrontar nuevos retos
                     asi como lograr hacer realidad las ideas y proyectos.
                 </p>
@@ -18,7 +18,31 @@
         </div>
         <div class="sectionRight">
             <img src="../../../assets/images/soccer-player-svgrepo-com.svg" alt="image of soccer player" class="animate__animated animate__tada animate__slow animate__infinite">
-            <p>Dentro de mis hobbies se encuentran la cocina, el dibujo, la lectura y los videojuegos asi como realizar ejercicio y deportes como el futbol.</p>
+            <p i18n="aboutMeP2">Dentro de mis hobbies se encuentran la cocina, el dibujo, la lectura y los videojuegos asi como realizar ejercicio y deportes como el futbol.</p>
+        </div>
+    </div>
+</section>
+
+
+<section *ngIf="currentLanguage=='en'">
+    <h2 >About Me</h2>
+    <div>
+        <div class="sectionLeft">
+            <div>
+                <h2 class="titleGreat textBlue" >¡ Hi !</h2>
+                <p >My name is <span class="textBlue">Julian Cobos Bautista</span>, but you can call me <span
+                        class="textBlue">Baxx</span>.
+                         I am a Front-End web developer and a student of Systems and Computer Engineering. I have knowledge primarily in <span class="textPink">HTML, CSS, JavaScript</span>.
+                </p>
+                <p >
+                    I reside in Funza, Colombia. I enjoy being in constant learning and facing new challenges, as well as bringing ideas and projects to life.
+                </p>
+            </div>
+            <img src="../../../assets/images/code-svgrepo-com.svg" alt="images of a computer" class="animate__animated animate__pulse animate__slow animate__infinite">
+        </div>
+        <div class="sectionRight">
+            <img src="../../../assets/images/soccer-player-svgrepo-com.svg" alt="image of soccer player" class="animate__animated animate__tada animate__slow animate__infinite">
+            <p >Among my hobbies are cooking, drawing, reading, and video games, as well as engaging in exercise and sports such as soccer.</p>
         </div>
     </div>
 </section>

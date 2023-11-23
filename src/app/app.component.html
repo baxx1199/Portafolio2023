@@ -1,6 +1,6 @@
-<app-navbar [class.navbar-blur]="isNavbarFixed" class="navbar-fixed"></app-navbar>
-<app-header id="idheaderbanner"></app-header>
-<app-aboutme id="idAboutMe"></app-aboutme>
-<app-skills id="idSkills"></app-skills>
-<app-projects id="idProjects"></app-projects>
-<app-footer id="idContact"></app-footer>
+<app-navbar [class.navbar-blur]="isNavbarFixed" class="navbar-fixed" [currentLanguage]="currentLanguage"></app-navbar>
+<app-header id="idheaderbanner" ></app-header>
+<app-aboutme id="idAboutMe" [currentLanguage]="currentLanguage"></app-aboutme>
+<app-skills id="idSkills" [currentLanguage]="currentLanguage"></app-skills>
+<app-projects id="idProjects" [currentLanguage]="currentLanguage"></app-projects>
+<app-footer id="idContact" [currentLanguage]="currentLanguage"></app-footer>

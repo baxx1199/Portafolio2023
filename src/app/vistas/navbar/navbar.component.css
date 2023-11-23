@@ -1,5 +1,6 @@
 nav, ul{
     width: 100%;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -8,6 +9,7 @@ nav, ul{
 nav{
     position: relative;
     padding-top: 2rem;
+    height: 130px;
     box-sizing: border-box;
     padding-bottom: 2rem;
 }
@@ -18,13 +20,16 @@ ul{
 }
 ul> li.menuItem{
     list-style: none;   
-    padding: 10px 20px;
+    padding: 5px 20px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
 }
 ul> li.menuItem:hover{
     transition: all .3s ease;
-    background: var(--color-principal);
+    color: var(--color-text-blue);
 }
 .menuHide{
     width: 20%;
@@ -37,8 +42,10 @@ ul> li.menuItem:hover{
 .logo{
     font-size: 3rem;
     position: absolute;
+    width: 150px;
+    height: 150px;
     left: 45%;
-    top: 25px;
+    top: -15px;
     transition: all .3s ease;
     cursor: pointer;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -78,14 +85,18 @@ ul> li.menuItem:hover{
         position: initial;
         font-size: 3rem;
         margin-left: 1rem;
+        width: 80px;
+        height: 80px;
     }
    .toggleBtn{
         display: flex;
+    
         padding: 10px 20px;
         align-items: center;
         cursor: pointer;
         transition: all .3s ease;
         margin-right: 1rem;
+        font-size: 28px;
    }
    .toggleBtn:hover{
     
@@ -99,10 +110,11 @@ ul> li.menuItem:hover{
     }
     
     ul> li{ 
-        padding: 10px 15px;   
+        padding: 5px 15px;   
     }
     .logo{
         font-size: 2rem;
+        left: 40%;
     }
    
  }

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+    <trans-unit id="6820570898064157741" datatype="html">
+        <source>Ver proyecto</source>
+         <target>Go to app</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/componentes/project-card/project-card.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description">btnSeeProject</note>
+      </trans-unit>
+      <trans-unit id="243731038548781807" datatype="html">
+        <source>Ver repositorio</source>
+        <target>See repository</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/componentes/project-card/project-card.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">btnSeeCode</note>
+      </trans-unit>
+      <trans-unit id="3609836661099817667" datatype="html">
+        <source>¿Quien soy?</source>
+        <target>About me</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vistas/aboutme/aboutme.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description">aboutMeTitle</note>
+      </trans-unit>
+      <trans-unit id="2480236407363326434" datatype="html">
+        <source>¡ Hola !</source>
+        <target> !Hi¡</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vistas/aboutme/aboutme.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">great</note>
+      </trans-unit>
+      <trans-unit id="7812380753218826710" datatype="html">
+        <source>Mi nombre es <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span
+                        class=&quot;textBlue&quot;&gt;"/>Julian Cobos Bautista<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> pero puedes decirme <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span
+                        class=&quot;textBlue&quot;&gt;"/>Baxx<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. Soy desarrollador web Front - End y estudiante de ingeniería de Sistemas y computación, cuento con conocimientos principalmente de <x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span class=&quot;textPink&quot;&gt;"/>HTML, CSS, JavaScript<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </source>
+         <target>My name is <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span
+                        class=&quot;textBlue&quot;&gt;"/>Julian Cobos Bautista<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>,but feel free to call me <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span
+                        class=&quot;textBlue&quot;&gt;"/>Baxx<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. I work as a Front-End web developer and am currently studying Systems and Computer Engineering. My expertise lies primarily in <x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span class=&quot;textPink&quot;&gt;"/>HTML, CSS, JavaScript<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vistas/aboutme/aboutme.component.html</context>
+          <context context-type="linenumber">7,11</context>
+        </context-group>
+        <note priority="1" from="description">aboutMeP1</note>
+      </trans-unit>
+      <trans-unit id="4222470879240173424" datatype="html">
+        <source> Resido en Funza - Colombia, Me gusta poder estar en constante aprendizaje y afrontar nuevos retos asi como lograr hacer realidad las ideas y proyectos. </source>
+        <target> I reside in Funza, Colombia. I thrive on continuous learning and embrace new challenges, all while bringing ideas and projects to fruition. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vistas/aboutme/aboutme.component.html</context>
+          <context context-type="linenumber">12,15</context>
+        </context-group>
+        <note priority="1" from="description">aboutMeP2</note>
+      </trans-unit>
+      <trans-unit id="1152631155986783402" datatype="html">
+        <source>Dentro de mis hobbies se encuentran la cocina, el dibujo, la lectura y los videojuegos asi como realizar ejercicio y deportes como el futbol.</source>
+        <target>Among my hobbies are cooking, drawing, reading, and playing video games. I also enjoy staying active through exercise and sports, with soccer being one of my favorites.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vistas/aboutme/aboutme.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <note priority="1" from="description">aboutMeP2</note>
+      </trans-unit>
+      <trans-unit id="8433768950518578342" datatype="html">
+        <source>Contacto</source>
+        <target>Contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vistas/footer/footer.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vistas/navbar/navbar.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">contactTitle</note>
+      </trans-unit>
+      <trans-unit id="8181578699142949220" datatype="html">
+        <source>Si me ajusto a tus necesidades puedes contactarme a través de mis redes sociales.</source>
+         <target>If you need to reach out or have any questions, feel free to contact me through my social media channels.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vistas/footer/footer.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">pContact1</note>
+      </trans-unit>
+      <trans-unit id="4408551441039872014" datatype="html">
+        <source>Creado por <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;textBlue&quot;&gt;"/>Baxx<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+         <target>Created by <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;textBlue&quot;&gt;"/>Baxx<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vistas/footer/footer.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <note priority="1" from="description">pContact2</note>
+      </trans-unit>
+      <trans-unit id="3697125738117299368" datatype="html">
+        <source>Desarrollador web</source>
+        <target>Web Developer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vistas/header/header.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">headerLabel</note>
+      </trans-unit>
+      <trans-unit id="2379082776169073909" datatype="html">
+        <source>Acerca de</source>
+        <target>About Me</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vistas/navbar/navbar.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">aboutMe</note>
+      </trans-unit>
+      <trans-unit id="1872099000671699527" datatype="html">
+        <source>Proyectos</source>
+        <target>Projects</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vistas/navbar/navbar.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vistas/projects/projects.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description">projects</note>
+      </trans-unit>
+      <trans-unit id="487412692932236838" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-filter&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Filtrar</source>
+         <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fa-solid fa-filter&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Filter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vistas/projects/projects.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">filter</note>
+      </trans-unit>
+      <trans-unit id="4976882786535379843" datatype="html">
+        <source>Limpiar</source>
+        <target>Reset</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vistas/projects/projects.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">btnClear</note>
+      </trans-unit>
+      <trans-unit id="6827699962822579994" datatype="html">
+        <source> Tecnologías </source>
+         <target> Technologies </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vistas/skills/skills.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+        <note priority="1" from="description">techs</note>
+      </trans-unit>
+      <trans-unit id="7702968070895242561" datatype="html">
+        <source> Otros conocimientos </source>
+        <target> Other Knowledge </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/vistas/skills/skills.component.html</context>
+          <context context-type="linenumber">15,17</context>
+        </context-group>
+        <note priority="1" from="description">knowledge</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
